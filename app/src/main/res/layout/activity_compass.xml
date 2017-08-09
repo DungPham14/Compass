@@ -3,14 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/ahihi"
     tools:context=".CompassActivity">
     <include layout="@layout/values_accelerometer"/>
 
     <ImageView
         android:id="@+id/main_image_dial"
-        android:layout_width="320dp"
-        android:layout_height="320dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_centerInParent="true"
         android:contentDescription="@string/compass_dial"
         android:src="@drawable/dial" />
@@ -23,5 +22,37 @@
         android:contentDescription="@string/compass_hands"
         android:scaleType="fitXY"
         android:src="@drawable/hands" />
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="GEOMAGNETIC FIELD: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/_X"
+            android:hint="x: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/_Y"
+            android:hint="y: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/_Z"
+            android:hint="z: "/>
+
+    </LinearLayout>
 
 </RelativeLayout>

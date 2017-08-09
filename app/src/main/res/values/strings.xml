@@ -5,5 +5,9 @@
 
     <string name="compass_dial">Compass Dial</string>
     <string name="compass_hands">Compass Hands</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="z">z</string>
+
 
 </resources>
