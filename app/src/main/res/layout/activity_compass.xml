@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CompassActivity">
-    <include layout="@layout/values_accelerometer"/>
+    <!--<include layout="@layout/values_accelerometer"/>-->
 
     <ImageView
         android:id="@+id/main_image_dial"
@@ -30,28 +30,34 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="5dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="GEOMAGNETIC FIELD: "/>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="GEOMAGNETIC: "/>-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/_X"
-            android:hint="x: "/>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/_X"-->
+            <!--android:hint="x: "/>-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/_Y"
-            android:hint="y: "/>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/_Y"-->
+            <!--android:hint="y: "/>-->
 
-        <TextView
-            android:layout_width="wrap_content"
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/_Z"-->
+            <!--android:hint="z: "/>-->
+
+        <Button
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/_Z"
-            android:hint="z: "/>
+            android:text="view data sensor"
+            android:id="@+id/ahihi"/>
 
     </LinearLayout>
 
